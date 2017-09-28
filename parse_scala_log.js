@@ -1,3 +1,6 @@
+'use strict';
+
+
 function throwUnexpected(c, state) {
   throw new Error('Unexpected character: ' + c + '. State: ' + state);
 }
