@@ -123,8 +123,6 @@ module.exports = function(str) {
         token += c;
         break;
     }
-    console.log(c, state, path.join('/'));
   }
-  console.log(ret);
   return ret.root;
 }
