@@ -1,6 +1,6 @@
 {
   "name": "parse_scala_log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "parse_scala_log.js",
   "scripts": {
