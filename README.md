@@ -8,3 +8,5 @@ const obj = parse('Car(brand=BMW, model=X6, components={Engine(power=225, consum
 ```
 
 Other examples you can find in test directory.
+
+RunKit example: https://runkit.com/fiftin/parse-scala-log
