@@ -1,12 +1,17 @@
 {
   "name": "parse_scala_log",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "keywords": ["logging", "logs", "scala", "parser"],
+  "homepage": "https://github.com/fiftin/parse_scala_log",
+  "description": "NPM package for parsing Scala log messages.",
+  "bugs": {
+    "url": "https://github.com/fiftin/parse_scala_log/issues"
+  },
   "main": "parse_scala_log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Denis Gukov",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
