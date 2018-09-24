@@ -17,6 +17,9 @@ function getObjectByPath(root, path, returnLastItemIfArray) {
 
   for (const key of path) {
     ret = ret[key];
+    if (Array.isArray(ret)) {
+      ret = ret[ret.length - 1];
+    }
   }
 
   if (returnLastItemIfArray && Array.isArray(ret)) {
